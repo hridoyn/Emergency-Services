@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 18.25, 14" name="sahajjo">
+  <DataContextMoniker Name="/sahajjoDataContext" />
+  <nestedChildShapes>
+    <classShape Id="01b996b2-4ca8-4108-8751-f84779819d9a" absoluteBounds="12.75, 1.875, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/sahajjoDataContext/Police" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c54dccd-d71e-45db-ad3c-385c25b039ef" absoluteBounds="12.765, 2.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bb7f1aa7-ac2f-47d3-8e93-1d9ad6f83795" absoluteBounds="12.75, 4.5, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/sahajjoDataContext/Hospital" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5767204a-2632-4b2f-a213-4cefbd0db10c" absoluteBounds="12.765, 4.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d9d8556a-7114-43e1-a54e-7f734321826c" absoluteBounds="12.75, 7, 2, 1.7708968098958335">
+      <DataClassMoniker Name="/sahajjoDataContext/FireService" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84cacd74-33a5-48d1-b625-6be1b2370142" absoluteBounds="12.765, 7.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d4545f38-6092-4a6e-8a9e-6d4647365bac" absoluteBounds="12.75, 9.5, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/sahajjoDataContext/BloodBank" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d12954d8-9702-4cf6-9861-4bf210ca0847" absoluteBounds="12.765, 9.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d0af247a-9717-4cb9-a7f1-54deef468544" absoluteBounds="10, 7.25, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/sahajjoDataContext/Area" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85484629-987b-4938-aff7-0601af01a41a" absoluteBounds="10.015, 7.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a166b932-fd97-479a-8011-3c04266b0f07" absoluteBounds="12.75, 12, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/sahajjoDataContext/Ambulance" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6d77c952-d4ee-47d4-be79-8a9bd35829dd" absoluteBounds="12.765, 12.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6f27ba72-cea1-42ae-9829-1c43294b685a" absoluteBounds="16, 4.25, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/sahajjoDataContext/Admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e4126779-780c-4e39-8e28-9933bbc70186" absoluteBounds="16.015, 4.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11 : 7.25); (11 : 2.76044840494792); (12.75 : 2.76044840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/sahajjoDataContext/Area/Area_Police" />
+      <nodes>
+        <classShapeMoniker Id="d0af247a-9717-4cb9-a7f1-54deef468544" />
+        <classShapeMoniker Id="01b996b2-4ca8-4108-8751-f84779819d9a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5312525 : 7.25); (11.5312525 : 5.38544840494792); (12.75 : 5.38544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/sahajjoDataContext/Area/Area_Hospital" />
+      <nodes>
+        <classShapeMoniker Id="d0af247a-9717-4cb9-a7f1-54deef468544" />
+        <classShapeMoniker Id="bb7f1aa7-ac2f-47d3-8e93-1d9ad6f83795" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12 : 7.84699625651042); (12.75 : 7.84699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/sahajjoDataContext/Area/Area_FireService" />
+      <nodes>
+        <classShapeMoniker Id="d0af247a-9717-4cb9-a7f1-54deef468544" />
+        <classShapeMoniker Id="d9d8556a-7114-43e1-a54e-7f734321826c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 8.44399251302083); (11 : 10.3854484049479); (12.75 : 10.3854484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/sahajjoDataContext/Area/Area_BloodBank" />
+      <nodes>
+        <classShapeMoniker Id="d0af247a-9717-4cb9-a7f1-54deef468544" />
+        <classShapeMoniker Id="d4545f38-6092-4a6e-8a9e-6d4647365bac" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10 : 7.67340811423277); (9.75 : 7.67340811423277); (9.75 : 8.02885050080128); (10 : 8.02885050080128)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/sahajjoDataContext/Area/Area_Area" />
+      <nodes>
+        <classShapeMoniker Id="d0af247a-9717-4cb9-a7f1-54deef468544" />
+        <classShapeMoniker Id="d0af247a-9717-4cb9-a7f1-54deef468544" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5312525 : 8.44399251302083); (11.5312525 : 12.8854484049479); (12.75 : 12.8854484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/sahajjoDataContext/Area/Area_Ambulance" />
+      <nodes>
+        <classShapeMoniker Id="d0af247a-9717-4cb9-a7f1-54deef468544" />
+        <classShapeMoniker Id="a166b932-fd97-479a-8011-3c04266b0f07" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5a02d46b-9a9f-433d-814a-506b2bf6e8b6" absoluteBounds="2.5, 2.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/sahajjoDataContext/Login" />
+      <nestedChildShapes>
+        <elementListCompartment Id="64c9e0c9-ef06-493d-b866-1c206ae5e406" absoluteBounds="2.515, 2.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
